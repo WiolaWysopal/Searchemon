@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +38,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+
+button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+
+button:hover {
+  background-color: #058132; /* Green */
+}
+
+form {
+  width:fit-content;
+  height: fit-content;
+  display: flex; 
+  align-items: center;
+  flex-direction: column; 
+  gap: 1em;
+}
+
+img {
+  width: 10rem;
+  margin: 0.1rem;
+  background-color: transparent;
 }
