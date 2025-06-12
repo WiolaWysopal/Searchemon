@@ -69,8 +69,6 @@ function App() {
       setOurPokemon(details.filter(p => p !== null));
 };
 
-
-
     const handleChange = (e) => {
         setSearch(e.target.value);
     };

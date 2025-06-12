@@ -1,9 +1,22 @@
 .App {
   text-align: center;
-  display: flex; 
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../public/images/searchemon_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -44,6 +57,7 @@ input {
   margin: 1rem;
   height: 2rem;
   border-radius: 0.25rem;
+  font-family: "pi";
 }
 
 button {
@@ -51,8 +65,10 @@ button {
   border: none;
   color: white;
   padding: 0.3rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 0.3rem;
+  font-family: 'Pokemon Solid', sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 button:hover {
@@ -72,4 +88,19 @@ img {
   width: 10rem;
   margin: 0.1rem;
   background-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color: white;
+  font-family: 'Pokemon Solid', sans-serif;
+  letter-spacing: 0.2rem;
+  line-height: 1rem;
+}
+
+.not-found {
+  font-size: 2rem;
 }
