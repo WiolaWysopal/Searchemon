@@ -35,7 +35,6 @@ src/
 ├── App.js                  # Main application logic and state management
 ├── components/
 │   ├── SearchBar.js        # Search input and buttons
-│   ├── PokemonCard.js      # Displays list of Pokémon cards
 │   └── PokemonDetails.js   # Shows detailed Pokémon info
 ├── App.css                 # Styles
 └── index.js                # React entry point
