@@ -1,13 +1,11 @@
-import React, {useState, useEffect} from "react";
-import axios from "axios";
+import React from "react";
 
-const SearchBar = ({onSearchChange, searchValue, onSearchSubmit, onReload}) => {
+const SearchBar = ({onSearchChange, searchValue, onSearchSubmit}) => {
     return (
-        <form onSubmit={onSearchSubmit}>
+        <div>
          <input onChange = {onSearchChange} value={searchValue} placeholder="Type a pokemon..."></input>
          <button onClick={onSearchSubmit}>Search'em all!</button>
-         <button onClick={onReload}>Reload Data!</button>
-      </form>
+      </div>
     )
 };
 
