@@ -44,6 +44,8 @@ src/
 
 ## 🚀 Getting Started
 
+Searchemon works at: https://searchemon-iota.vercel.app/.
+
 1. **Clone the repository:**
 
 ```bash
@@ -70,12 +72,6 @@ Then go to `http://localhost:3000` in your browser.
 ## 🌐 Data Source
 
 All Pokémon data is provided by [PokeAPI](https://pokeapi.co/), a free and open Pokémon RESTful API.
-
-<!-- --- -->
-
-<!-- ## 📸 Screenshots *(optional)* -->
-
-<!-- Add screenshots here if needed -->
 
 ## 📄 License
 
